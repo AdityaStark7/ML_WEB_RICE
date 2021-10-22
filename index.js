@@ -23,9 +23,9 @@ app.get("/", (req, res) => {
   res.send(`
   <form action="/image/classify" method="POST">
   <p>
-  Enter Crops Image URL</p>
+  Enter Rice Image URL</p>
   <input name='ImageUrl' autocomplete=off>
-  <button>Predict </button>
+  <button>Predict Disease </button>
   </form>  
     `);
 });
